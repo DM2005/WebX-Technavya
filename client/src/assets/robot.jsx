@@ -14,7 +14,15 @@ export const AiIcon = () => (
         <stop offset="100%" stopColor="#6EE7B7" stopOpacity="1" />
       </linearGradient>
     </defs>
-    <g transform="rotate(180 10 10)">
+    {/* <g transform="rotate(180 10 10)">
+      <path d="M14.5039 4C15.8846 4 17.0039 5.11929 17.0039 6.5V13.5C17.0039 14.8807 15.8846 16 14.5039 16H5.50391C4.12319 16 3.00391 14.8807 3.00391 13.5V6.5C3.00391 5.11929 4.12319 4 5.50391 4H14.5039Z" fill="url(#sleekGradient)" stroke="#1F2937" stroke-width="0.3" />
+      <path d="M5 12C5 10.8954 5.89543 10 7 10H13C14.1046 10 15 10.8954 15 12C15 13.1046 14.1046 14 13 14H7C5.89543 14 5 13.1046 5 12Z" fill="#1A1A1A" stroke="#0F0F0F" stroke-width="0.2" />
+      <rect width="2" height="2" rx="1" transform="matrix(1 0 0 -1 7 13)" fill="url(#accentGradient)" stroke="#374151" stroke-width="0.1" />
+      <rect width="2" height="2" rx="1" transform="matrix(1 0 0 -1 11 13)" fill="url(#accentGradient)" stroke="#374151" stroke-width="0.1" />
+      <rect y="9.00195" width="2" height="4" rx="1" fill="url(#sleekGradient)" stroke="#1F2937" stroke-width="0.2" />
+      <rect x="18" y="9.00195" width="2" height="4" rx="1" fill="url(#sleekGradient)" stroke="#1F2937" stroke-width="0.2" />
+    </g> */}
+     <g transform="rotate(180 10 10)">
       <path d="M14.5039 4C15.8846 4 17.0039 5.11929 17.0039 6.5V13.5C17.0039 14.8807 15.8846 16 14.5039 16H5.50391C4.12319 16 3.00391 14.8807 3.00391 13.5V6.5C3.00391 5.11929 4.12319 4 5.50391 4H14.5039Z" fill="url(#sleekGradient)" stroke="#1F2937" stroke-width="0.3" />
       <path d="M5 12C5 10.8954 5.89543 10 7 10H13C14.1046 10 15 10.8954 15 12C15 13.1046 14.1046 14 13 14H7C5.89543 14 5 13.1046 5 12Z" fill="#1A1A1A" stroke="#0F0F0F" stroke-width="0.2" />
       <rect width="2" height="2" rx="1" transform="matrix(1 0 0 -1 7 13)" fill="url(#accentGradient)" stroke="#374151" stroke-width="0.1" />
