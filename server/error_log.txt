@@ -1,0 +1,8 @@
+Error: {"error":{"code":404,"message":"models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+Stack: ApiError: {"error":{"code":404,"message":"models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+    at throwErrorIfNotOK (file:///C:/Users/gauha/OneDrive/Desktop/triksha/nirogcare.in/server/node_modules/@google/genai/dist/node/index.mjs:13230:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/gauha/OneDrive/Desktop/triksha/nirogcare.in/server/node_modules/@google/genai/dist/node/index.mjs:13006:13
+    at async Models.generateContent (file:///C:/Users/gauha/OneDrive/Desktop/triksha/nirogcare.in/server/node_modules/@google/genai/dist/node/index.mjs:14274:24)
+    at async getMedicalRecordSummary (file:///C:/Users/gauha/OneDrive/Desktop/triksha/nirogcare.in/server/controllers/medicalRecord.controller.js:147:22)
+Time: 2026-01-24T22:15:44.404Z

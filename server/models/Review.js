@@ -1,0 +1,36 @@
+import mongoose from "mongoose";
+
+const reviewSchema = new mongoose.Schema(
+    {
+        patientId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Patient",
+            required: true,
+        },
+        doctorId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Doctor",
+            required: true,
+        },
+        appointmentId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Appointment",
+            required: true,
+            unique: true,
+        },
+        rating: {
+            type: Number,
+            required: true,
+            min: 1,
+            max: 5,
+        },
+        comment: {
+            type: String,
+            trim: true,
+            maxlength: 500,
+        },
+    },
+    { timestamps: true }
+);
+
+export const Review = mongoose.model("Review", reviewSchema);

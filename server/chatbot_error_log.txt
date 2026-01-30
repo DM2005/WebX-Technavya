@@ -1,0 +1,9 @@
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Stack: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///C:/Users/gauha/OneDrive/Desktop/triksha/nirogcare.in/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (file:///C:/Users/gauha/OneDrive/Desktop/triksha/nirogcare.in/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///C:/Users/gauha/OneDrive/Desktop/triksha/nirogcare.in/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async ChatSession.sendMessage (file:///C:/Users/gauha/OneDrive/Desktop/triksha/nirogcare.in/server/node_modules/@google/generative-ai/dist/index.mjs:1208:9)
+    at async chatBotController (file:///C:/Users/gauha/OneDrive/Desktop/triksha/nirogcare.in/server/controllers/chatBot.controller.js:75:22)
+Time: 2026-01-24T22:36:34.067Z
